@@ -9,10 +9,8 @@ public class Calculations {
             return subtract(operand1, operand2);
         } else if (op.equals(Operation.DIVIDE)) {
             return divide(operand1, operand2);
-        } else if (op.equals(Operation.MULTIPLY)) {
-            return multiply(operand1, operand2);
         } else {
-            throw new Exception("Unknown operation");
+            return multiply(operand1, operand2);
         }
     }
 
