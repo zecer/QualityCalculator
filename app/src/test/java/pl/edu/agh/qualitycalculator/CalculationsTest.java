@@ -23,7 +23,7 @@ public class CalculationsTest {
     @Test
     public void testSum() throws Exception {
         assertEquals(5, calculationsUnderTest.calculate(Operation.SUM, 2, 3), 0.01);
-    }
+    }  
 
     @Test
     public void testSub() throws Exception {
