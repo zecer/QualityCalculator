@@ -14,6 +14,11 @@ public class Calculations {
         }
     }
 
+    public float calculateAvg(Operation op, float operand1, float operand2, float operand3) throws Exception {
+        return average(operand1, operand2, operand3);
+    }
+
+
     private float sum(float operand1, float operand2) {
         return operand1 + operand2;
     }
@@ -28,6 +33,10 @@ public class Calculations {
 
     private float divide(float operand1, float operand2) {
         return operand1 / operand2;
+    }
+
+    private float average(float operand1, float operand2, float operand3) {
+        return (operand1 + operand2 + operand3) / 3;
     }
 
 }

@@ -23,7 +23,7 @@ public class CalculationsTest {
     @Test
     public void testSum() throws Exception {
         assertEquals(5, calculationsUnderTest.calculate(Operation.SUM, 2, 3), 0.01);
-    }  
+    }
 
     @Test
     public void testSub() throws Exception {
@@ -52,8 +52,8 @@ public class CalculationsTest {
     }
 
     @Test
-    public void testDiff4() throws Exception {
-       assertEquals("3.0 plus 3.0 gives value 6.0", calculationsVerbalizerTest.verbalize(Operation.SUM, 3,3, 6));
+    public void testAvg() throws Exception {
+        assertEquals(2, calculationsUnderTest.calculateAvg(Operation.AVG, 1, 2, 3), 0.01);
     }
 
 

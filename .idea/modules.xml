@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/QualityCalculator.iml" filepath="$PROJECT_DIR$/QualityCalculator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/QualityCalculator.iml" filepath="$PROJECT_DIR$/QualityCalculator.iml" />
+      <module fileurl="file://C:\Users\Zecernia\StudioProjects\QualityCalculator\QualityCalculator.iml" filepath="C:\Users\Zecernia\StudioProjects\QualityCalculator\QualityCalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Zecernia\StudioProjects\QualityCalculator\app\app.iml" filepath="C:\Users\Zecernia\StudioProjects\QualityCalculator\app\app.iml" />
     </modules>
   </component>
 </project>
